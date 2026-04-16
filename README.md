@@ -11,6 +11,11 @@ O projeto original foi a criação de um site integrado de doações, buscando f
 - Botões dinâmicos;
 - Seção de "Fale conosco".
 
+### Limitações Identificadas
+- Limitação 1: Falta de segurança;
+- Limitação 2: Falta de controle relacionada as doações;
+- Limitação 3: Falta de organização no site.
+
 ### Tecnologias Utilizadas
 - Frontend: CSS;
 - Backend: HTML, PHP;
@@ -19,10 +24,29 @@ O projeto original foi a criação de um site integrado de doações, buscando f
 ## 🚀 Melhorias Propostas
 
 ### Melhoria 1: Criar Tela de Login
-- Problema: Falta de histórico pessoal
-- Solução: Criando uma nova tela para cadastro
-- Justificativa: Por segurança e controle de doações feitas
-- Impacto esperado: Organização e segurança.
+- Problema: Vulnerabilidade de dados e falta de rastreabilidade sobre quem realiza as operações.
+- Solução: Interface de autenticação com campos de usuário e senha.
+- Justificativa: Garantir a segurança da informação.
+- Impacto esperado: Organização e segurança das doações.
+
+### Melhoria 2: Contador de Doações do Mês
+- Problema: Falta de visibilidade em tempo real sobre o progresso das metas financeiras.
+- Solução: Um contador como "Já recebemos 39 doações este mês. Faltam 11 para atingirmos nossa meta de manutenção!".
+- Justificativa: Centralizar o controle quantitativo das doações, incentivando os usuários a completarem a meta estabelecida.
+- Impacto esperado: Mais transparência e engajamento com os doadores.
+
+### Melhoria 3: Seção de "Para onde vai seu dinheiro?"
+- Problema: Falta de transparência clara sobre o uso das doações, o que reduz a confiança e pode gerar hesitação no doador.
+- Solução: Incluir uma seção de "Para onde vai seu dinheiro?" mostrando com o que sua doação esta contribuindo.
+- Justificativa: Quando o doador entende exatamente o impacto da sua contribuição, a confiança aumenta e a decisão de doar se torna mais fácil.
+- Impacto esperado: Aumenta a confiança e a credibilidade da nossa iniciativa, reduz dúvidas e inseguranças na hora de doar.
+
+### Melhoria 4: Caixa Postal
+- Problema: Dificuldade para receber doações físicas, o que pode desestimular quem deseja contribuir com itens materiais.
+- Solução: Criar uma caixa postal para facilitar o recebimento de doações materiais.
+- Justificativa: Oferecer um endereço torna o processo mais simples e acessível para o doador e transmite maior organização e profissionalismo.
+- Impacto esperado: Maior diversidade de doações recebidas, redução de barreiras de envio e facilitar a participação de pessoas que não conseguem contribuir financeiramente.
+
 
 ## 📅 Cronograma de Implementação
 
