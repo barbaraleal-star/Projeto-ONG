@@ -23,11 +23,11 @@ O projeto original foi a criação de um site integrado de doações, buscando f
 
 ## 🚀 Melhorias Propostas
 
-### Melhoria 1: Criar Tela de Login
-- Problema: Vulnerabilidade de dados e falta de rastreabilidade sobre quem realiza as operações.
-- Solução: Interface de autenticação com campos de usuário e senha.
-- Justificativa: Garantir a segurança da informação.
-- Impacto esperado: Organização e segurança das doações.
+### Melhoria 1: Criar Tela de Pagamento
+- Problema: Atualmente, o sistema não possui uma tela dedicada para pagamento, o que dificulta a finalização de compras.
+- Solução: Desenvolver uma tela de pagamento via Pix intuitiva e segura.
+- Justificativa: Sem a tela, o serviço não consegue converter interesse em doação. Uma experiência fluida aumenta a confiança do doador na plataforma.
+- Impacto esperado: Aumento na conversão de doações, melhoria na experiência do doador e maior credibilidade da aplicação no processo de pagamento.
 
 ### Melhoria 2: Contador de Doações do Mês
 - Problema: Falta de visibilidade em tempo real sobre o progresso das metas financeiras.
