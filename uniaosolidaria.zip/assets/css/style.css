@@ -310,7 +310,7 @@ body{
 
 .section__comodoar-cards{
       display:flex;
-      margin: 3rem auto 0;
+      margin: 4rem auto 0;
       justify-content: center;
       gap: 2rem;
       align-items: stretch;
@@ -318,7 +318,7 @@ body{
       flex-wrap: wrap;
 } 
 .section__comodoar-card{
-      width: 25vw;
+      width: 30vw;
       display: flex;
       flex-direction: column; 
       justify-content: flex-start;
