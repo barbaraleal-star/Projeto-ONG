@@ -52,13 +52,15 @@ O projeto original foi a criação de um site integrado de doações, buscando f
 
 ### Mês 1: Análise e Setup
 - [x] Análise detalhada do código existente
-- [ ] Configuração do ambiente de desenvolvimento
-- [ ] Criação de branch de desenvolvimento
-- [ ] Definição de arquitetura das melhorias
+- [x] Configuração do ambiente de desenvolvimento
+- [x] Criação de branch de desenvolvimento
+- [x] Definição de arquitetura das melhorias
 
 ### Mês 2: Desenvolvimento
 - [ ] Implementação da Melhoria 1
 - [ ] Implementação da Melhoria 2
+- [ ] Implementação da Melhoria 3
+- [x] Implementação da Melhoria 4
 - [ ] Testes unitários
 - [ ] Testes de integração
 
