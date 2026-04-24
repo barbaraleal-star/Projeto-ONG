@@ -1,4 +1,4 @@
-# Projeto-ONG
+# Projeto ONG
 
 # 📋 Contexto do Projeto Original
 
