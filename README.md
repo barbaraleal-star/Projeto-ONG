@@ -57,9 +57,9 @@ O projeto original foi a criação de um site integrado de doações, buscando f
 - [x] Definição de arquitetura das melhorias
 
 ### Mês 2: Desenvolvimento
-- [ ] Implementação da Melhoria 1
+- [x] Implementação da Melhoria 1
 - [ ] Implementação da Melhoria 2
-- [ ] Implementação da Melhoria 3
+- [x] Implementação da Melhoria 3
 - [x] Implementação da Melhoria 4
 - [ ] Testes unitários
 - [ ] Testes de integração
