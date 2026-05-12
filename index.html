@@ -14,7 +14,7 @@
           <div class="header__logo">
                <h3>União Solidária</h3>
                  <div class="bar" onclick="showNav();">
-                     <img src="assets/css/imagem/inicio 2.jpeg">
+                     <img src="assets/img/inicio 2.jpeg" alt="Imagem inicial">
                  </div>
           </div>
           <nav class="header__nav">
@@ -52,6 +52,9 @@
                          <p class="section__proposito-text">
                               Também estamos empenhados em desenvolver as competências socioemocionais, académicas e valores cívicos de crianças e jovens para que estejam preparados para enfrentar os desafios do mundo de hoje e fazer contribuições positivas para as suas comunidades.<br> Defendemos políticas públicas que promovam uma educação inclusiva e de qualidade para todos e trabalhamos com escolas, famílias e outras instituições para criar um ambiente educacional mais propício ao desenvolvimento integral de crianças e adolescentes.
                          </p>
+                         <button class="btn-transparencia-proposito" onclick="abrirModalInfo()">
+                              Para Onde Vai Seu Dinheiro?
+                         </button>
                     </div>
                    </section><!-- Card Quem Somos-->
           </section>
@@ -127,7 +130,7 @@
                          <div class="section__card-projetos">
 
                               <div class="section__card-img-projetos">
-                                   <img src="projetos e programas.jpeg">
+                                   <img src="assets/img/projetos-programas.jpeg">
                               </div>
                               <div class="section__card-subTitle-projetos">
                                    <h3>Programa de Apoio Escolar</h3>
@@ -144,7 +147,7 @@
                          <div class="section__card-projetos">
 
                               <div class="section__card-img-projetos">
-                                   <img src="projetos e programas 2.jpeg">
+                                   <img src="assets/img/projetos-programas-2.jpeg">
                               </div>
                               <div class="section__card-subTitle-projetos">
                                    <h3>Programa de Desenvolvimento Pessoal e Social</h3>
@@ -160,7 +163,7 @@
                          <div class="section__card-projetos">
 
                               <div class="section__card-img-projetos">
-                                   <img src="projetos e programas 3.jpeg">
+                                   <img src="assets/img/projetos-programas-3.jpeg">
                               </div>
                               <div class="section__card-subTitle-projetos">
                                    <h3>Programa de Saúde e Bem-Estar</h3>
@@ -176,7 +179,7 @@
                          <div class="section__card-projetos">
 
                               <div class="section__card-img-projetos">
-                                   <img src="projetos e programas 4.jpeg">
+                                   <img src="assets/img/projetos-programas-4.jpeg">
                               </div>
                               <div class="section__card-subTitle-projetos">
                                    <h3>Biblioteca Comunitária</h3>
@@ -272,7 +275,7 @@ Sua doação contribui para mudar a realidade de milhares de crianças e jovens.
                </div>
 
 
-               <a href="#" class="section__btn">Doe Agora</a>
+               <a href="javascript:void(0)" class="section__btn" onclick="abrirModalPagamento()">Doe Agora</a>
 
 
           </section><!-- End Combate Section -->
@@ -330,6 +333,93 @@ Sua doação contribui para mudar a realidade de milhares de crianças e jovens.
           </footer> 
      </main>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js">
+     
+</script>
+<div id="modalPagamento" style="display:none; position:fixed; z-index:10000; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.6); align-items:center; justify-content:center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    
+    <div style="background: white; width: 450px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); overflow: hidden; position: relative; color: #333;">
+        
+        <div style="padding: 20px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center;">
+            <h2 style="margin: 0; font-size: 20px; color: #444;">Pagamento de Doação</h2>
+            <span onclick="fecharModalPagamento()" style="cursor: pointer; font-size: 24px; color: #999;">&times;</span>
+        </div>
+
+        <div id="etapaDados" style="padding: 25px;">
+            <div style="margin-bottom: 15px;">
+                <label style="display: block; font-weight: 600; margin-bottom: 8px;">Nome Completo:</label>
+                <input type="text" id="p_nome" placeholder="Digite seu nome" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box;">
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label style="display: block; font-weight: 600; margin-bottom: 8px;">CPF:</label>
+                <input type="text" id="p_cpf" placeholder="000.000.000-00" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box;">
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label style="display: block; font-weight: 600; margin-bottom: 8px;">E-mail:</label>
+                <input type="email" id="p_email" placeholder="seu@email.com" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box;">
+            </div>
+
+            <div style="margin-bottom: 25px;">
+                <label style="display: block; font-weight: 600; margin-bottom: 8px;">Valor (R$):</label>
+                <input type="number" id="p_valor" placeholder="Ex: 50,00" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box;">
+            </div>
+
+            <button onclick="irParaPix()" style="width: 100%; background: #0066da; color: white; border: none; padding: 15px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; margin-bottom: 10px;">Avançar para o Pix</button>
+            <button onclick="fecharModalPagamento()" style="width: 100%; background: white; color: #e74c3c; border: 1px solid #e74c3c; padding: 10px; border-radius: 8px; font-size: 14px; cursor: pointer;">Cancelar</button>
+        </div>
+
+        <div id="etapaPix" style="display:none; padding: 30px; text-align: center;">
+            <p style="font-weight: bold; font-size: 18px; margin-bottom: 10px;">Quase lá!</p>
+            <p style="color: #666; margin-bottom: 20px;">Escaneie o QR Code para doar <strong id="txtValorConfirmado"></strong></p>
+            
+            <div style="background: #f9f9f9; padding: 15px; border-radius: 12px; display: inline-block; border: 1px solid #eee;">
+                <img id="qrCodeImg" src="" width="200" style="display: block;">
+            </div>
+            
+            <button onclick="fecharModalPagamento()" style="width: 100%; background: #27ae60; color: white; border: none; padding: 15px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; margin-top: 25px;">Concluir</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    function abrirModalPagamento() {
+        document.getElementById('modalPagamento').style.display = 'flex';
+        document.getElementById('etapaDados').style.display = 'block';
+        document.getElementById('etapaPix').style.display = 'none';
+    }
+
+    function fecharModalPagamento() {
+        document.getElementById('modalPagamento').style.display = 'none';
+    }
+
+    function irParaPix() {
+        const valor = document.getElementById('p_valor').value;
+        const nome = document.getElementById('p_nome').value;
+
+        if(!valor || !nome) {
+            alert("Por favor, preencha o Nome e o Valor.");
+            return;
+        }
+
+        const chavePix = "financeiro@uniaosolidaria.org.br";
+       
+        const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=PIX:${chavePix}|VALOR:${valor}`;
+        
+        document.getElementById('qrCodeImg').src = qrUrl;
+        document.getElementById('txtValorConfirmado').innerText = "R$ " + parseFloat(valor).toFixed(2);
+
+        document.getElementById('etapaDados').style.display = 'none';
+        document.getElementById('etapaPix').style.display = 'block';
+    }
+
+    window.onclick = function(event) {
+        if (event.target == document.getElementById('modalPagamento')) {
+            fecharModalPagamento();
+        }
+    }
+</script>
+</body>
 
 </html>
