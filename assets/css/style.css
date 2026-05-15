@@ -75,7 +75,7 @@ body{
 }
 
 .hero{
-     background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(../css/imagem/inicio\ 2.jpeg);
+     background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("../img/inicio-2.jpeg");
      height: 100vh;
      background-repeat:no-repeat;
      background-size:cover;
