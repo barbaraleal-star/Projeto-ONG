@@ -383,6 +383,126 @@ body{
         background: #fff;
 }
 
+.janela-doacoes {
+     background-color: #ffffff;
+     border-radius: 16px;
+     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+     overflow: hidden;
+     
+     position: fixed;
+     bottom: 20px;       
+     right: 20px;        
+     width: 320px;       
+     z-index: 9999;      
+     
+     display: none; 
+     
+     animation: fadeIn 0.5s ease-out;
+}
+
+.janela-doacoes.ativa {
+     display: block !important;
+}
+
+.doacoes-header {
+     background-color: #7481b9;
+     color: #ffffff;
+     padding: 20px 16px;
+     text-align: center;
+}
+
+.doacoes-header h2 {
+     margin: 0 0 6px 0;
+     font-size: 1.25rem;
+     font-weight: 600;
+     color: #ffffff;
+}
+
+.doacoes-header p {
+     margin: 0;
+     font-size: 0.85rem;
+     opacity: 0.9;
+     color: #ffffff;
+}
+
+.doacoes-progresso {
+     padding: 20px;
+}
+
+.valores {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 12px;
+}
+
+.valores .atual {
+     font-size: 1.2rem;
+     font-weight: 700;
+     color: #333333;
+}
+
+.valores .meta {
+     font-size: 0.85rem;
+     color: #666666;
+}
+
+.barra-fundo {
+     background-color: #e2e5f0;
+     width: 100%;
+     height: 10px;
+     border-radius: 6px;
+     overflow: hidden;
+}
+
+.barra-preenchimento {
+     background-color: #7481b9;
+     height: 100%;
+     border-radius: 6px;
+}
+
+.porcentagem {
+     font-size: 0.8rem;
+     color: #7481b9;
+     margin: 8px 0 0 0;
+     font-weight: 600;
+}
+
+.doacoes-footer {
+     padding: 0 20px 20px 20px;
+     text-align: center;
+}
+
+.btn-doar {
+     background-color: #7481b9;
+     color: #ffffff;
+     border: none;
+     padding: 12px 24px;
+     width: 100%;
+     font-size: 0.95rem;
+     font-weight: 600;
+     border-radius: 8px;
+     cursor: pointer;
+     transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-doar:hover {
+     background-color: #5f6ca5;
+}
+
+.btn-doar:active {
+     transform: scale(0.98);
+}
+
+@media (max-width: 480px) {
+     .janela-doacoes {
+          width: calc(100% - 30px);
+          bottom: 15px;
+          right: 15px;
+          left: 15px;
+     }
+}
+
 .section__contato{
      padding: 4rem 0 4rem 0;
      display:flex;
