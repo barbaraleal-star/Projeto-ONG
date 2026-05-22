@@ -18,8 +18,7 @@ O projeto original foi a criação de um site integrado de doações, buscando f
 
 ### Tecnologias Utilizadas
 - Frontend: CSS;
-- Backend: HTML, PHP;
-- Banco de dados: MySQL.
+- Backend: HTML, PHP, JavaScript.
 
 ## 🚀 Melhorias Propostas
 
@@ -58,11 +57,11 @@ O projeto original foi a criação de um site integrado de doações, buscando f
 
 ### Mês 2: Desenvolvimento
 - [x] Implementação da Melhoria 1
-- [ ] Implementação da Melhoria 2
+- [x] Implementação da Melhoria 2
 - [x] Implementação da Melhoria 3
 - [x] Implementação da Melhoria 4
-- [ ] Testes unitários
-- [ ] Testes de integração
+- [x] Testes unitários
+- [x] Testes de integração
 
 ### Mês 3: Refinamento e Entrega
 - [ ] Correção de bugs
