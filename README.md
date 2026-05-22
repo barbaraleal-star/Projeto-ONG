@@ -18,7 +18,7 @@ O projeto original foi a criação de um site integrado de doações, buscando f
 
 ### Tecnologias Utilizadas
 - Frontend: CSS;
-- Backend: HTML, PHP, JavaScript.
+- Backend: HTML e JavaScript.
 
 ## 🚀 Melhorias Propostas
 
@@ -64,8 +64,7 @@ O projeto original foi a criação de um site integrado de doações, buscando f
 - [x] Testes de integração
 
 ### Mês 3: Refinamento e Entrega
-- [ ] Correção de bugs
+- [x] Correção de bugs
 - [ ] Documentação
 - [ ] Preparação da apresentação
 - [ ] Deploy e testes finais
-
