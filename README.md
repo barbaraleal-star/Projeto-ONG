@@ -65,6 +65,22 @@ O projeto original foi a criação de um site integrado de doações, buscando f
 
 ### Mês 3: Refinamento e Entrega
 - [x] Correção de bugs
-- [ ] Documentação
+- [x] Documentação
 - [ ] Preparação da apresentação
 - [ ] Deploy e testes finais
+
+
+## 📊 Resultados das Melhorias
+
+### Antes
+![Screenshot antes](docs/antes.jpeg)
+- Sem destaque de doações
+- Interface mais simples
+
+
+### Depois
+![Screenshot depois](docs/depois.jpeg)
+- Card de doações mensais adicionado
+- Melhor organização visual
+- Caixa postal, contador de doações do mês, tela de pagamento e seção de "Para onde vai seu dinheiro?" adicionadas
+
