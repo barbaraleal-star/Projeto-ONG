@@ -66,8 +66,8 @@ O projeto original foi a criação de um site integrado de doações, buscando f
 ### Mês 3: Refinamento e Entrega
 - [x] Correção de bugs
 - [x] Documentação
-- [ ] Preparação da apresentação
-- [ ] Deploy e testes finais
+- [x] Preparação da apresentação
+- [x] Deploy e testes finais
 
 
 ## 📊 Resultados das Melhorias
