@@ -84,3 +84,5 @@ O projeto original foi a criação de um site integrado de doações, buscando f
 - Melhor organização visual
 - Caixa postal, contador de doações do mês, tela de pagamento e seção de "Para onde vai seu dinheiro?" adicionadas
 
+
+Link da apresentação: https://drive.google.com/drive/folders/11li-51YjM8KBKprudbk2gmxd15xlJ0Di?usp=drive_link
